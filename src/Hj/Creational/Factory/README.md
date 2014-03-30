@@ -7,3 +7,11 @@ without specifying their concrete classes.
 construction of a suite of "products".
 * The new operator considered harmful.
 
+## Problematic
+
+Easily get an object to employment matching our needs
+
+## Solution
+
+Class + method (static) that encapsulates the logic of creating our object
+

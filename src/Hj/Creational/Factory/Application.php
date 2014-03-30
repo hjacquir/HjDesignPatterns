@@ -16,7 +16,7 @@ class Application
      */
     public function ferrari()
     {
-        return Builder::build('italian', 'ferrari');
+        return Factory::build('italian', 'ferrari');
     }
     
     /**
@@ -24,6 +24,6 @@ class Application
      */
     public function toyota()
     {
-        return Builder::build('japan', 'toyota');
+        return Factory::build('japan', 'toyota');
     }
 }

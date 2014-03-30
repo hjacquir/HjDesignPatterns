@@ -9,7 +9,7 @@ namespace Hj\Creational\Factory;
 /**
  * This class is the factory in charge to create a vehicle
  */
-class Builder
+class Factory
 {
     /**
      * @param string $make
