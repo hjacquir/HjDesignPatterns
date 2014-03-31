@@ -3,17 +3,15 @@
 Learn designs patterns in PHP
 
 ##Creational
-
-### Factory
-### Singleton
+* Factory
+* Singleton
 * AbstractFactory
 * Builder
 * Prototype
 
 ##Structural
-
-### Adaptator (Adapter)
-### Decorator
+* Adaptator (Adapter)
+* Decorator
 * Interface
 * Bridge
 * Composite
@@ -21,10 +19,9 @@ Learn designs patterns in PHP
 * Proxy
 
 ##Behavioural
-
-### Observator (Observer)
-### Strategy
-### Interpretor
+* Observator (Observer)
+* Strategy
+* Interpretor
 * Chain of responsability
 * Template Method
 * Command
