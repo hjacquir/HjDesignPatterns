@@ -10,7 +10,7 @@ Learn designs patterns in PHP
 * Prototype
 
 ##Structural
-* Adaptator (Adapter)
+* Adaptator (Adapter) (Wrapper)
 * Decorator
 * Interface
 * Bridge
