@@ -9,37 +9,43 @@ namespace Hj\Behavioural\Strategy\Ducks\With;
 abstract class Duck
 {
     /**
-     * @var Fly
+     * @var FlyingStrategy
      */
     protected $strategyFlying;
 
     /**
-     * @var Quack
+     * @var QuackingStrategy
      */
     protected $strategyQuacking;
 
+    /**
+     * @return string
+     */
     public function fly()
     {
-        $this->strategyFlying->flying();
-    }
-
-    public function quack()
-    {
-        $this->strategyQuacking->quacking();
+        $this->strategyFlying->fly();
     }
 
     /**
-     * @param \Hj\Behavioural\Strategy\Ducks\With\Fly $strategyFlying
+     * @return string
      */
-    public function setStrategyFlying($strategyFlying)
+    public function quack()
+    {
+        $this->strategyQuacking->quack();
+    }
+
+    /**
+     * @param FlyingStrategy $strategyFlying
+     */
+    public function setStrategyFlying(FlyingStrategy $strategyFlying)
     {
         $this->strategyFlying = $strategyFlying;
     }
 
     /**
-     * @param \Hj\Behavioural\Strategy\Ducks\With\Quack $strategyQuacking
+     * @param QuackingStrategy $strategyQuacking
      */
-    public function setStrategyQuacking($strategyQuacking)
+    public function setStrategyQuacking(QuackingStrategy $strategyQuacking)
     {
         $this->strategyQuacking = $strategyQuacking;
     }
